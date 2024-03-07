@@ -18,7 +18,7 @@ export default function App() {
   const rutasSoda = { bio: "/soda/historia-soda", discos: "/soda/discos-soda" };
   return (
     <QueryClientProvider client={queryClient}>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <>
         <Routes>
           <Route path="/" element={<Layout />}>
