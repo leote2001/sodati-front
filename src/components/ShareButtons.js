@@ -8,8 +8,8 @@ import {
 } from 'react-share';
 
 const ShareButtons = () => {
-    const shareUrl = typeof window !== "undefined" ? window.location.href : ""; 
-    const title = typeof document !== "undefined" ? document.title : "Sodati";
+    const shareUrl = window.location.href; 
+    const title = "Sodati"; 
   return (
     <div
       style={{
