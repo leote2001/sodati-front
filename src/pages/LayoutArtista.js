@@ -12,8 +12,8 @@ function LayoutArtista({ artista, rutaArtista, texto }) {
         </figure>
             <nav aria-label={`navegación ${artista}`}>
                 <ul className="list-unstyled d-flex justify-content-between">
-                    <li className="lead"><NavLink to={`${rutaArtista.bio}`} activeClassName="active">{texto}</NavLink></li>
-                    <li className="lead"><NavLink to={`${rutaArtista.discos}`} activeClassName="active">Discos</NavLink></li>
+                    <li className="lead"><NavLink to={`${rutaArtista.bio}`} className={({isActive}) => isActive ? "active" : ""}>{texto}</NavLink></li>
+                    <li className="lead"><NavLink to={`${rutaArtista.discos}`} className={({isActive}) => isActive ? "active" : ""}>Discos</NavLink></li>
                 </ul>
             </nav>
             <Outlet />
