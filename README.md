@@ -1,3 +1,2 @@
-Esta app es el frontend de la api Sodati, la cual permite obtener la discografía de Gustavo Cerati y Soda Stereo. Su enlace es: https://github.com/leote2001/Sodati-api.
-
-Actualmente en desarrollo...
+Este sitio contiene información sobre Gustavo Cerati y Soda Stereo. Obtiene los datos de la api del mismo nombre.
+Enlace al sitio: https://leote2001.github.io/sodati-front 
