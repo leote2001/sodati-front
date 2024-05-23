@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sodati-front/static/css/main.85934524.css",
-    "main.js": "/sodati-front/static/js/main.f00cfd84.js",
+    "main.js": "/sodati-front/static/js/main.10e8e74e.js",
     "static/js/453.20315fa7.chunk.js": "/sodati-front/static/js/453.20315fa7.chunk.js",
     "index.html": "/sodati-front/index.html",
     "main.85934524.css.map": "/sodati-front/static/css/main.85934524.css.map",
-    "main.f00cfd84.js.map": "/sodati-front/static/js/main.f00cfd84.js.map",
+    "main.10e8e74e.js.map": "/sodati-front/static/js/main.10e8e74e.js.map",
     "453.20315fa7.chunk.js.map": "/sodati-front/static/js/453.20315fa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85934524.css",
-    "static/js/main.f00cfd84.js"
+    "static/js/main.10e8e74e.js"
   ]
 }
