@@ -32,15 +32,15 @@ function AlbumDetails({ artista }) {
 {isErrorAlbum || isErrorTracklist &&
                 <p className="alert-danger" role="alert">Ocurrió un error!</p>
 }            
-            {albumData && albumData.length > 0 && tracklistData && tracklistData.length > 0 &&
+            {albumData &&  tracklistData && tracklistData.length > 0 &&
                 <>
                 <h2>Detalles</h2>
                     <div className="card">
-                        <img src={albumData[0].cover_medium} className="card-img-top" alt={`Cover ${albumData[0].title}`} />
+                        <img src={albumData.cover_medium} className="card-img-top" alt={`Cover ${albumData.title}`} />
                         <div className="card-body">
-                            <h5 className="card-title">{albumData[0].title}</h5>
-                            <p className="card-text">Fecha de lanzamiento: {albumData[0].release_date}</p>
-                            <a className="btn btn-primary" target="_blank" href={albumData[0].link}>Ver en Deezer</a>
+                            <h5 className="card-title">{albumData.title}</h5>
+                            <p className="card-text">Fecha de lanzamiento: {albumData.release_date}</p>
+                            <a className="btn btn-primary" target="_blank" href={albumData.link}>Ver en Deezer</a>
                         </div>
                     </div>
                     <AlbumTracklist data={tracklistData} />
